@@ -68,8 +68,6 @@ for i, row in recommended_df.iterrows():
     print(f"Stability Score: {row['Stability_Score']:.2f}")
     print(f"Canopy Score: {row['Canopy_Score']:.2f}")
 
-pip install streamlit
-
 import streamlit as st
 import pandas as pd
 
